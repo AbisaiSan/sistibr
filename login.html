@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sistema de Gerenciamento IBR</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="icon" type="imagem/png" href="img/logo.png" />
+</head>
+
+<body>
+  
+    <header>
+        <!--Menu de navegação-->
+    
+        <nav id="menu">
+            <ul>
+              <li><img class="logo" src="img/logo2.png"></li>
+              <div class="links">
+                <li><a href="cadastro.html">Cadastrar</a></li>
+                <li><a href="#">Membros</a></li>
+                <li><a href="#">Bairros</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Grupo familiar</a></li>
+              </div>
+            </ul>
+        </nav>
+    
+      <!-- Fim Menu de navegação-->
+      </header>
+  <header>
+    <img class="img" src="img/login.png">
+  </header>
+  <form class="main-2" method="POST" action="login.php">
+    <div class="form-group">
+      <div class="col-5">
+        <label for="email">Endereço de email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="email@gmail.com" required>
+      </div>
+      <div class="col-5">
+        <label for="password">Senha</label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="Senha" required>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary botao">Entrar</button>
+  </form>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
